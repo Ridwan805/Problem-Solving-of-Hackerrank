@@ -22,3 +22,13 @@ arr =
 <p>The highest hourglass sum is 28 from the hourglass beginning at row 1, column 2:</p>
 
 ![image](https://github.com/Ridwan805/Problem-Solving-of-Hackerrank/assets/154875891/bbc7388b-d79c-49a2-b3fd-d7d2d4921df6)
+
+<p>
+  <b>Function Description</b><br>
+
+Complete the function hourglassSum in the editor below.<br>
+
+hourglassSum has the following parameter(s):<br>
+
+<ul><li>int arr[6][6]: an array of integers</li></ul>
+</p>
