@@ -32,3 +32,40 @@ hourglassSum has the following parameter(s):<br>
 
 <ul><li>int arr[6][6]: an array of integers</li></ul>
 </p>
+<p>
+  <b>Returns</b><br>
+
+<ul><li>int: the maximum hourglass sum</li></ul><br>
+<b>Input Format</b><br>
+Each of the 6 lines of inputs arr[i] contains 6 space-separated integers arr[i][j].<br><br>
+<b>Constraints</b><br>
+</p>
+
+![image](https://github.com/Ridwan805/Problem-Solving-of-Hackerrank/assets/154875891/5d206d02-22fc-43e2-94eb-a2023dd61bb8)
+
+<p><b>Output Format</b><br>
+
+Print the largest (maximum) hourglass sum found in arr.<br>
+
+<b>Sample Input</b></p>
+
+![image](https://github.com/Ridwan805/Problem-Solving-of-Hackerrank/assets/154875891/fe2c3c67-f57e-4801-9b6b-394704e67ac7)
+
+<p><b>Sample Output</b></p>
+
+![image](https://github.com/Ridwan805/Problem-Solving-of-Hackerrank/assets/154875891/262842ea-c72e-4fce-af8b-92a281e4be44)
+
+<p><b>Explanation</b>
+
+arr contains the following hourglasses:</p>
+
+![image](https://github.com/Ridwan805/Problem-Solving-of-Hackerrank/assets/154875891/7acd3045-aad1-4905-81fc-826db0e39588)
+
+<p>The hourglass with the maximum sum(19) is:</p>
+
+
+![image](https://github.com/Ridwan805/Problem-Solving-of-Hackerrank/assets/154875891/4ff11809-f8f6-4603-84b7-400de698c0e3)
+
+
+
+
