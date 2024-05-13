@@ -16,25 +16,18 @@ import sys
 #
 
 def arrayManipulation(n, queries):
-    # Initialize an array with zeros
-    arr = [0] * n
+    arr = [0] * (n+2)
     
-    # Initialize a prefix sum array
-    prefix_sum = [0] * (n + 1)
+    for a,b,k in queries:
+        arr[a] += k
+        arr[b+1] -= k
     
-    # Process queries
-    for start, end, val in queries:
-        prefix_sum[start - 1] += val
-        prefix_sum[end] -= val
+    maxsum = temp = 0
+    for val in arr:
+        temp += val 
+        maxsum = max(maxsum, temp)
     
-    # Calculate the maximum sum
-    max_sum = 0
-    current_sum = 0
-    for i in range(n):
-        current_sum += prefix_sum[i]
-        max_sum = max(max_sum, current_sum)
-    
-    return max_sum
+    return maxsum  
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
