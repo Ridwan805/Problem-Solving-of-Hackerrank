@@ -23,9 +23,9 @@
       int[n]: the rotated array
     </li>
   </ul>
-  <h4>Input Format</b><h4>
+  <h4>Input Format<h4>
   The first line contains two space-sperated integers that denote <i>n</i> the number of integers, and <i>d</i> the number of left rotations to perform <br>
-  The second line contains n space separated integers that describe arr[]<br><br><br>
+The second line contains n space separated integers that describe arr[]<br><br><br>
   <h4>Constraints</h4>
   <ul>
     <li>
